@@ -126,6 +126,7 @@ def places_search():
     """
 
     if request.get_json() is None:
+        return "NOT FOUND MEPY"
         abort(400, description="Not a JSON")
 
     data = request.get_json()
