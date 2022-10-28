@@ -416,4 +416,6 @@ Write a JavaScript script (`static/scripts/101-hbnb.js`):
 
 Done?  Help  Get a sandbox
 
-Ready for a  manual review
+## Authors
+Getacher Mitkie - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
+Bete Goshme - [Github](https://github.com/bete7512) / [Twitter](https://twitter.com/BeteGoshme)  
