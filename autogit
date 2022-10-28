@@ -7,4 +7,4 @@ else
   message="$*"
 fi
 git commit -a -m "$message"
-git push origin bete
+git push origin main
