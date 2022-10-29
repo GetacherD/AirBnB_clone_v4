@@ -53,15 +53,16 @@
 				<h3>Amenities</h3>
 				<h4>&nbsp;</h4>
 				<div class="popover">
-					<ul>
-						{% for amenity in amenities %}
-						<li>{{ amenity.name }}
-						</li>
-
-						{% endfor %}
-					</ul>
+				  <ul>
+					{% for amenity in amenities %}
+					<li>{{ amenity.name }}
+					  <input  class="special" type="checkbox" data-id={{ amenity.id}} data-name={{ amenity.name }}> 
+					</li>
+				   
+					{% endfor %}
+				  </ul>
 				</div>
-			</div>
+			  </div>
 			<button type="button">Search</button>
 		</section>
 		<div class="placesh1">

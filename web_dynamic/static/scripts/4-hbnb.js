@@ -71,7 +71,7 @@ $(document).ready(function (){
         $.ajax({
             type:"POST",
             url:"http://0.0.0.0:5001/api/v1/places_search/",
-            data:JSON.stringify({"amenitiess":amenities_id}),
+            data:JSON.stringify({"amenities":amenities_id}),
             contentType: "application/json",
             success: (data)=>{
                 console.log(data);
