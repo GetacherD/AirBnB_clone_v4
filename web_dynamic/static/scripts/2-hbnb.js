@@ -39,6 +39,23 @@ $(document).ready(function (){
         // }
     })
    }
-   
-
+   $.ajax({
+    type: "GET",
+    url: "http://0.0.0.0:5001/api/v1/status/",
+    success: function (data) {
+        if (data.status === "OK"){
+           // alert(data.status)
+            $("div#api_status").addClass("available")
+        }
+        else 
+        {
+          //  alert(data.status);
+         //   alert("Class should be removed");
+            $("div#api_status").removeClass("available")
+        }
+    },
+    error: function (err) {
+        alert(err);
+    }
+})
 })
