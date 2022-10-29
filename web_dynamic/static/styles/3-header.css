@@ -22,5 +22,5 @@ header {
     margin: 10px 30px auto 10px;
 }
 #api_status.available {
-	background-color: #FF545F !important;
+	background-color: #FF545F;
 }
